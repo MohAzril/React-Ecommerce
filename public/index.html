@@ -2,7 +2,33 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <!-- <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" /> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/bootstrap.min.css">
+    <!-- <link href="assets/css/style.css" rel="stylesheet" type="text/css" /> -->
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700" rel="stylesheet"> 
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <!-- Bootstrap4 files-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+
+    <!-- plugin: slickslider -->
+    <link href="assets/plugins/slickslider/slick.css" rel="stylesheet" type="text/css" />
+    <link href="assets/plugins/slickslider/slick-theme.css" rel="stylesheet" type="text/css" />
+
+    <!-- custom style -->
+    <link href="assets/css/ui.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/responsive.css" rel="stylesheet" media="only screen and (max-width: 1200px)" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+
+    <!-- Favicon and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/250px-Yucamp_logo.png">
+
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -26,7 +52,50 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root">
+      <!-- <button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="">Previous</button>
+      <div class="slick-list draggable">
+        <div class="slick-track" style="opacity: 1; width: 3892px; transform: translate3d(-1112px, 0px, 0px);">
+          <div class="item-slide p-2 slick-slide slick-cloned" data-slick-index="-4" aria-hidden="true" style="width: 278px;" tabindex="-1">
+            <figure class="card card-product">
+              <div class="img-wrap"> <img src="/static/media/tenda2.173000c8.jpg"> </div>
+              <figcaption class="info-wrap text-center">
+                <h6 class="title text-truncate"><a href="product-detail.html" tabindex="-1">Tenda Kipa</a></h6>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="item-slide p-2 slick-slide slick-cloned" data-slick-index="-3" aria-hidden="true" style="width: 278px;" tabindex="-1">
+            <figure class="card card-product">
+              <div class="img-wrap"> <img src="/static/media/tenda3.8540d20b.jpg"> </div>
+              <figcaption class="info-wrap text-center">
+                <h6 class="title text-truncate"><a href="product-detail.html" tabindex="-1">Third Tenda</a></h6>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="item-slide p-2 slick-slide slick-cloned" data-slick-index="-2" aria-hidden="true" style="width: 278px;" tabindex="-1">
+              <figure class="card card-product"><div class="img-wrap"> <img src="/static/media/tenda4.2013e4e3.jpg"> </div><figcaption class="info-wrap text-center"><h6 class="title text-truncate"><a href="product-detail.html" tabindex="-1">Tenda Biru</a></h6></figcaption></figure>
+          </div>
+          <div class="item-slide p-2 slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" style="width: 278px;" tabindex="-1"><figure class="card card-product"><div class="img-wrap"> <img src="/static/media/tenda5.7680ad82.jpg"> </div><figcaption class="info-wrap text-center"><h6 class="title text-truncate"><a href="product-detail.html" tabindex="-1">Nice Tenda</a></h6></figcaption></figure>
+          </div>
+          <div class="item-slide p-2 slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 278px;" tabindex="0"><figure class="card card-product"><span class="badge-new"> NEW </span><div class="img-wrap"> <img src="/static/media/tenda1.1d96b90e.jpg"> </div><figcaption class="info-wrap text-center"><h6 class="title text-truncate"><a href="product-detail.html" tabindex="0">Tenda Baru</a></h6></figcaption></figure>
+          </div>
+          <div class="item-slide p-2 slick-slide slick-active" data-slick-index="1" aria-hidden="false" style="width: 278px;" tabindex="0"><figure class="card card-product"><div class="img-wrap"> <img src="/static/media/tenda2.173000c8.jpg"> </div><figcaption class="info-wrap text-center"><h6 class="title text-truncate"><a href="product-detail.html" tabindex="0">Tenda Kipa</a></h6></figcaption></figure>
+          </div>
+          <div class="item-slide p-2 slick-slide slick-active" data-slick-index="2" aria-hidden="false" style="width: 278px;" tabindex="0"><figure class="card card-product"><div class="img-wrap"> <img src="/static/media/tenda3.8540d20b.jpg"> </div><figcaption class="info-wrap text-center"><h6 class="title text-truncate"><a href="product-detail.html" tabindex="0">Third Tenda</a></h6></figcaption></figure>
+          </div>
+          <div class="item-slide p-2 slick-slide slick-active" data-slick-index="3" aria-hidden="false" style="width: 278px;" tabindex="0"><figure class="card card-product"><div class="img-wrap"> <img src="/static/media/tenda4.2013e4e3.jpg"> </div><figcaption class="info-wrap text-center"><h6 class="title text-truncate"><a href="product-detail.html" tabindex="0">Tenda Biru</a></h6></figcaption></figure>
+          </div>
+          <div class="item-slide p-2 slick-slide" data-slick-index="4" aria-hidden="true" style="width: 278px;" tabindex="-1"><figure class="card card-product"><div class="img-wrap"> <img src="/static/media/tenda5.7680ad82.jpg"> </div><figcaption class="info-wrap text-center"><h6 class="title text-truncate"><a href="product-detail.html" tabindex="-1">Nice Tenda</a></h6></figcaption></figure></div>
+          <div class="item-slide p-2 slick-slide slick-cloned" data-slick-index="5" aria-hidden="true" style="width: 278px;" tabindex="-1"><figure class="card card-product"><span class="badge-new"> NEW </span><div class="img-wrap"> <img src="/static/media/tenda1.1d96b90e.jpg"> </div><figcaption class="info-wrap text-center"><h6 class="title text-truncate"><a href="product-detail.html" tabindex="-1">Tenda Baru</a></h6></figcaption></figure></div>
+          <div class="item-slide p-2 slick-slide slick-cloned" data-slick-index="6" aria-hidden="true" style="width: 278px;" tabindex="-1"><figure class="card card-product"><div class="img-wrap"> <img src="/static/media/tenda2.173000c8.jpg"> </div><figcaption class="info-wrap text-center"><h6 class="title text-truncate"><a href="product-detail.html" tabindex="-1">Tenda Kipa</a></h6></figcaption></figure></div>
+          <div class="item-slide p-2 slick-slide slick-cloned" data-slick-index="7" aria-hidden="true" style="width: 278px;" tabindex="-1"><figure class="card card-product"><div class="img-wrap"> <img src="/static/media/tenda3.8540d20b.jpg"> </div><figcaption class="info-wrap text-center"><h6 class="title text-truncate"><a href="product-detail.html" tabindex="-1">Third Tenda</a></h6></figcaption></figure></div>
+          <div class="item-slide p-2 slick-slide slick-cloned" data-slick-index="8" aria-hidden="true" style="width: 278px;" tabindex="-1"><figure class="card card-product"><div class="img-wrap"> <img src="/static/media/tenda4.2013e4e3.jpg"> </div><figcaption class="info-wrap text-center"><h6 class="title text-truncate"><a href="product-detail.html" tabindex="-1">Tenda Biru</a></h6></figcaption></figure></div>
+          <div class="item-slide p-2 slick-slide slick-cloned" data-slick-index="9" aria-hidden="true" style="width: 278px;" tabindex="-1"><figure class="card card-product"><div class="img-wrap"> <img src="/static/media/tenda5.7680ad82.jpg"> </div><figcaption class="info-wrap text-center"><h6 class="title text-truncate"><a href="product-detail.html" tabindex="-1">Nice Tenda</a></h6></figcaption></figure></div>
+        </div>
+      </div>
+      <button class="slick-next slick-arrow" aria-label="Next" type="button" style="">Next</button> -->
+
+    </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -37,5 +106,14 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- JS footer -->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <!-- jQuery -->
+    <script src="assets/plugins/slickslider/slick.min.js"></script>
   </body>
 </html>
